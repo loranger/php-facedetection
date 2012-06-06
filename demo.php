@@ -62,7 +62,7 @@ if ( getParam('remote') != '' || (is_array($_FILES) && array_key_exists('local',
 
     <h1>PHP Face Detection</h1>
     <p>
-        Pure PHP Face detection, no OpenCV, Imagick extension based
+        Pure PHP Face detection, Imagick extension based, no OpenCV
     </p>
     <br />
 
