@@ -5,7 +5,7 @@ This class detect one face in images. This is a pure PHP port of an existing JS 
 
 Requirements
 ------------
-PHP5 with GD
+PHP5 with Imagick
 
 License
 -------
