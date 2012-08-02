@@ -31,7 +31,7 @@ class FaceDetector
 
     public function __construct($file)
     {
-        $this->loadDetectionData('detection.dat');
+		$this->loadDetectionData( dirname(__FILE__) . '/detection.dat');
         $this->im = new Imagick($file);
         $this->small = clone $this->im;
 
